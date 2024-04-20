@@ -1,0 +1,274 @@
+.parent1 {
+    font-family: "Lora", serif;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin: 40px;
+
+}
+
+.class2 {
+    font-weight: bolder;
+    padding: 0px;
+    margin: 0px;
+}
+
+.class8 {
+    margin: 0px;
+    margin-left: 10px;
+
+
+}
+
+.class9 {
+    margin: 0px;
+    font-size: 45px;
+
+}
+
+.class3 {
+    margin-left: 20vw;
+}
+
+.class10 {
+    font-family: "Roboto Slab", serif;
+    justify-content: center;
+}
+
+.class11 {
+    font-size: 49px;
+    margin-left: 290px;
+}
+
+.class12 {
+    font-size: 19px;
+    margin-left: 270px;
+
+}
+
+.class13 {
+    font-size: 19px;
+    margin-left: 560px;
+}
+
+.class14 {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    background-color: aqua;
+    color: black;
+    margin-left: 520px;
+    margin-top: 40px;
+
+}
+
+.class15 {
+    font-family: "Chakra Petch", sans-serif;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.class16 {
+    margin-right: 6px;
+    margin-left: 7px;
+
+}
+
+
+.parent2 {
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 340px 340px 340px;
+    grid-template-rows: 150px 150px 150px 150px;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.classv {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #fffcfc;
+    font-weight: bolder;
+    font-family: "Sumana", serif;
+
+}
+
+.classv1 {
+    border: 2px solid black;
+    display: inline-block;
+    height: 30px;
+    border-radius: 5px;
+    font-family: "Donegal One", serif;
+    padding: 4px;
+    background-color: lawngreen;
+}
+
+
+.classv2 {
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 50px;
+    font-size: medium;
+    font-family: "Donegal One", serif;
+    padding: 4px;
+    margin-right: 10px;
+    background-color: aquamarine;
+
+}
+
+.classv3 {
+    margin-left: 125px;
+}
+
+.rajwant {
+    margin-left: 100px;
+}
+
+.class26 {
+    outline: 1px solid black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 90px;
+    min-height: 130vh;
+    background-color: #222222;
+    color: white;
+    
+}
+
+
+.class30 {
+    margin-left: 60vw;
+    width: 25vw;
+    border-radius: 10px;
+    height: 34vh;
+    border: 3px solid white;
+    background-color: white;
+    color: black;
+    margin-top: -30px;
+
+}
+
+.class31 {
+
+    border: 2px solid black;
+    margin-top: 10px;
+    width: 283px;
+    height: 31px;
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 4px;
+    border-radius: 5px;
+    background-color: #93e063;
+    color: white;
+}
+
+.class32 {
+    margin-left: 44px;
+    font-size: 25px;
+    color: #0693e3;
+}
+
+.class33 {
+    font-size: 14px;
+    font-weight: 100;
+    margin-left: 90px;
+}
+
+.email {
+    width: 270px;
+    height: 31px;
+    margin-left: 25px;
+}
+
+
+
+.class34 {
+    margin-left: 170px;
+    position: relative;
+    left: 75px;
+    top: 154px;
+}
+
+.class27 {
+    margin-top: 20vh;
+    font-family: "Prata", serif;
+    font-size: xx-large;
+   
+}
+
+body{
+    width: auto;
+    overflow-x: hidden;
+}
+
+
+.class35{
+    font-family: "Donegal One", serif;
+    margin-top: 18vh;
+    margin-left: 15vw;
+}
+
+.class36{
+    font-size: xx-large;
+}
+
+.class37{
+    font-size:xx-large;
+}
+
+.class38{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    margin-top: 10vh;
+    margin-left: 15vw;
+}
+
+.class43{
+    border: 2px solid black;
+    border-radius: 4px;
+    text-align: center;
+    background-color:#93e063 ;
+    margin-top: 10px;
+}
+
+.class41 p{
+    padding: 0px;
+    margin: 0px;
+}
+
+.class39 p{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.class40 p{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.class44{
+    position: relative;
+    top:-21px;
+    font-weight: bolder;
+}
+
+.class38{
+    font-family: "Alike", serif;
+}
+
+
+.class45{
+    font-weight: bolder;
+    position: relative;
+    top:-10px
+}
+

@@ -1,0 +1,29 @@
+.arun1{
+    font-family: 'Rubik Glitch Pop', system-ui;
+    font-weight: bold;
+    font-style:oblique;
+    
+}
+.arun2{
+    font-family: 'Workbench', sans-serif;
+    font-size:xx-large;
+    font-display: block;
+}
+.arun3{
+    font-family: 'Aboreto', system-ui;
+    text-decoration:underline;
+     text-decoration-color: blue;
+     /*text-decoration-thickness:7px;*/
+     text-decoration-style: wavy;
+     text-indent: 10px;
+     
+}
+
+.arun4{
+    text-transform:uppercase;
+    color:rgba(1, 117, 115, 0.549)   
+    
+}
+body{
+    background-color: hsl(23, 45, 24)
+}

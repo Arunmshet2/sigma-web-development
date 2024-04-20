@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS variable</title>
+    <style>
+
+        :root{
+            --color:rgb(252, 206, 0);
+            --seccolor:rgb(185, 185, 82);
+        }
+
+        .class1{
+            display: flex;
+            border:2px solid black;
+            padding:35px;
+            color: black;
+            background-color: var(--color);
+            
+        }
+        .class2{
+            flex:1;
+        }
+
+        .class3{
+            --efpad:2px;
+            border: var(--efpad) solid black;
+            margin-top: 20px;
+            background-color: var(--seccolor);
+            min-height: 40vh;
+        }
+
+        div div:first-child{
+            --color:pink;
+            background-color: var(--color);
+        }
+    </style>
+</head>
+<body>
+    <div class="class1">
+        <div class="class2">home</div>
+        <div class="class2">About</div>
+        <div class="class2">contact</div>
+    </div>
+
+    <div class="class3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nulla labore repellendus possimus aspernatur numquam suscipit nobis? Tenetur, aliquam! Eius aperiam earum error sed perspiciatis, officia eligendi quasi, omnis labore neque quod exercitationem velit iste? Repellat delectus animi blanditiis minus similique voluptatum magni provident quasi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore eum omnis nobis nostrum quisquam, facilis quia dolores, laboriosam reprehenderit ab impedit beatae officiis consequuntur ex neque nisi voluptatibus enim vero numquam quis expedita. Aperiam quam excepturi, officia labore explicabo sunt quibusdam doloremque sit corrupti magnam sed provident, dicta debitis iure laboriosam accusantium possimus? Tempora, repellendus harum dolorum porro quisquam vel temporibus explicabo, inventore earum, fuga nisi! Velit tempora placeat illum? Quis ratione impedit consequuntur non officia animi exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, deleniti aspernatur qui odit ducimus voluptates in porro quasi dolor magni rem natus odio! Sequi aut ad beatae quis accusamus voluptatum asperiores impedit distinctio atque?
+
+    </div>
+    
+</body>
+</html>

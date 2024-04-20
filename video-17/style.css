@@ -1,0 +1,45 @@
+ul{
+    color: darkslategrey;
+    background-color: wheat;
+    margin: 0;
+    padding: 0;
+}
+
+/* this is for class*/
+
+.input{
+    background-color: rgb(246, 198, 5);
+    color: crimson;
+}
+
+/*this is for id*/
+#openion{
+    background-color: orange;
+}
+#name{
+    background-color: deeppink;
+}
+
+div > p {
+    background-color: yellow;
+    color: aqua;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    /*font-size: x-large;*/
+}
+
+a:visted{
+    color: yellow;
+}
+
+a:link{
+    color: cornflowerblue;
+
+}
+
+a:hover{
+    background-color: crimson;
+}

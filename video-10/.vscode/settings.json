@@ -1,0 +1,10 @@
+{
+    "mediaPreview.video.autoPlay": false,
+    "mediaPreview.video.loop": true,
+    "audioCues.chatRequestSent": "on",
+    "audioCues.volume": 90,
+    "audioCues.chatResponsePending": "on",
+    "audioCues.chatResponseReceived": "on",
+    "audioCues.clear": "on",
+    "audioCues.format": "always"
+}

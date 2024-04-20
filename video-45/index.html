@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TRANSITION</title>
+    <style>
+        .parent{
+            border: 3px solid black;
+            border-radius: 10px;
+            width: 60vw;
+            height: 30vh;
+            background-color: aquamarine;
+            
+        }
+
+        .class{
+            border: 4px solid black;
+            width: 5vw;
+            height: 5vh;
+            background-color: brown;
+            transition-property: transform,background-color;
+            transition-duration:20s;
+            transition-timing-function: cubic-bezier(0.77, 0.14, 0.03, 0.79);
+            transition-delay:5s;
+        }
+        
+        .arun{
+            transform:translateX(60px) translateY(60vh) scale(2);
+            background-color: pink;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="class arun">
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

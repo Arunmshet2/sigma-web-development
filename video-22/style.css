@@ -1,0 +1,24 @@
+.class1{
+    border:2px solid black;
+    background-color: crimson;
+    box-sizing: border-box;
+    width: 80vw;
+    margin: 23px auto;
+    padding: 0;
+}
+
+.class2{
+    border:2px solid black;
+    background-color: crimson;
+    box-sizing: border-box;
+    width: 80vw;
+    margin:23px auto;
+    height:auto;
+    
+    padding: 0;
+}
+
+.class3{
+    min-height: 80px;
+    
+}

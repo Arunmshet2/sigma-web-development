@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid</title>
+    <style>
+        .parent {
+            border: 2px solid black;
+            display: grid;
+            grid-template-areas: "nav nav nav"
+                                 "side article ende"
+                                 "foot footer footest";
+                               
+
+        }
+
+        .class {
+            border: 3px solid blue;
+            width: 55px;
+            height: 45px;
+
+        }
+
+        .class1{
+            grid-area: nav;
+        }
+
+        .class3{
+            grid-area: footer;
+        }
+
+        .class5{
+            grid-area:foot;
+        }
+
+        .class2{
+            grid-area: ende;
+        }
+
+        .class4{
+            grid-area: nav;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="class class1">1</div>
+        <div class="class class2">2</div>
+        <div class="class class3">3</div>
+        <div class="class class4">4</div>
+        <div class="class class5">5</div>
+
+    </div>
+
+</body>
+
+</html>

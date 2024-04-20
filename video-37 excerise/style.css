@@ -1,0 +1,185 @@
+#logo{
+    width: 150px;
+    position: relative;
+    top: 32px;
+    left: 23px;
+    background-color: rgba(236, 223, 223, 0.841);
+   
+}
+
+.class2{
+    list-style: none;
+    font-size: 30px;
+    display: flex;
+    font-family: "Ojuju", sans-serif;
+    text-decoration: none;
+}
+div li a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: yellowgreen;
+}
+
+div li{
+
+    padding: 30px;
+    font-weight: 400;
+}
+
+#search{
+    width: 300px;
+    height: 43px;
+    border-radius: 23px;
+    position: relative;
+    top: 36px ;
+    left: 15px;
+}
+
+input::placeholder{
+    padding: 10px;
+}
+
+
+
+input[type="text"] {
+    padding: 10px 40px 10px 10px; /* Adjust padding as needed */
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #0f0e0e;
+    border-radius: 5px;
+    background: url('search-interface-symbol_54481.png') no-repeat 95% center; /* Replace with your search icon */
+    background-size: 20px 20px; /* Adjust size as needed */
+    position: relative;
+    left:30px;
+}
+
+.class1{
+    border: 2px solid black;
+    border-radius: 34px;
+    background-color: rgba(236, 223, 223, 0.841);
+    color: rgba(217, 10, 51, 0.815);
+    position: sticky;
+    top:0px;
+   
+   
+}
+
+.class9 {
+    list-style: none;
+    display: inline;
+    position: relative;
+    padding: 10px;
+    left:664px;
+    top:-45px;
+    position: relative;
+    font-size:xx-large;
+    font-family: "ojuju";
+    
+}
+
+.class10 {
+    list-style: none;
+    display: inline;
+    position: relative;
+    padding: 10px;
+    left:703px;
+    top:-45px;
+    position: relative;
+    font-size:xx-large;
+    font-family: "ojuju";
+    
+}
+.class11 {
+    list-style: none;
+    display: inline;
+    position: relative;
+    padding: 10px;
+    left:722px;
+    top:-45px;
+    position: relative;
+    font-size:xx-large;
+    font-family: "ojuju";
+    
+}
+
+.class14{
+    display:flex;
+}
+
+.class12{
+
+    width: 50vw;
+    height:60vh;
+    border:3px solid black;
+    border-radius:25px;
+    margin-right: 10px;
+    
+  
+    background-color: rgba(224, 217, 217, 0.864);
+    padding-top: 20px;
+}
+
+.class13{
+    width:50vw;
+    height:60vh;
+    border:3px solid black;
+    background-color: rgba(243, 234, 234, 0.914);
+    border-radius:25px;
+    
+    padding-top: 20px;
+}
+
+.class14{
+    border:2px solid black;
+    min-height: 30vh;
+    text-align: center;
+    font-size: 23px;
+    margin: 20px;
+    background-color: rgba(245, 237, 237, 0.921);
+    color: red;
+}
+
+.class15{
+    border: 3px solid black;
+    border-radius: 23px;
+    padding: 20px;
+    background-color: rgba(245, 237, 237, 0.921);
+    font-family: "ojuju";
+    color: red;
+    
+    
+}
+
+.class16{
+    border: 2px solid black;
+    border-radius: 23px;
+    background-color: rgba(245, 237, 237, 0.921);
+    font-family: "ojuju";
+    color: red;
+    min-height: 60vh;
+    margin-bottom: 30px;
+    padding: 30px;
+    font-size: 30px;
+}
+
+
+body{
+    background-color: rgb(245, 249, 252);
+}
+
+.class17{
+    z-index: 23;
+    position: fixed;
+    display: inline;
+}
+
+#we{
+    margin-top: 10px;
+    position: relative;
+    left: 1399px;
+    z-index: 32;
+   
+}
+

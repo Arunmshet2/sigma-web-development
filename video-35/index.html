@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nmore on css selector </title>
+    <style>
+        .class::first-line{
+            background-color: rgb(203, 201, 97);
+        }
+
+        .classes * {
+           border: 2px solid black;
+        }
+
+       /* [arun="good"]{
+            margin-top: 45px;
+        }
+        */
+
+        .class:first-child{
+            padding: 15px;
+        }
+
+        .class:nth-child(2){
+            padding: 15px;
+        }
+
+        .class:last-child{
+            padding: 15px;
+        }
+
+        .class:nth-last-child(2){
+            text-align: center;
+        }
+
+        .class:nth-child(odd){
+            text-align: center;
+        }
+
+        .classes::before {
+            content: "i am going to be the king of the pirates";
+            border: 2px solid black ;
+            padding: 15px;
+            display: block;
+            text-align: center;
+            
+        }
+
+        .classes::after {
+            content: "my dream is to be beccome hookage one day";
+            border:3px solid black;
+            text-align: center;
+            display:block;
+            padding: 15px;
+        }
+
+        ::selection{
+            background-color: black;
+            color: palevioletred;
+        }
+
+        /*.class::first-letter{
+            font-size: 45px;
+        }
+        */
+
+        input::placeholder{
+            background-color:blue;
+            color: pink;
+        }
+
+    </style>
+<body>
+    <div class="classes">
+
+        <div  arun="good" class="class">WE ARE GOING TO RAISE THE BAR </div>
+
+        <div class="class">KARMNA MANAM KRISHNA</div>
+
+        <div class="class"> RAJWANT I LOVE YOU</div>
+
+
+
+
+    </div>
+
+    <input type="text" name="name"  id="name" placeholder="enter a text here...">
+    
+</body>
+</html>

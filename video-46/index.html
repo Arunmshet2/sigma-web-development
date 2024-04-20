@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css animation</title>
+    <style>
+        .parent {
+            border: 3px solid black;
+            width: 50vw;
+            height: 60vh;
+            background-color: crimson;
+        }
+
+        .class {
+            border: 4px solid black;
+            width: 5vw;
+            height: 6vh;
+            background-color: chartreuse;
+            overflow: scroll;
+            overflow-x: hidden;
+            /* animation-name:arunkaanimation;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0.42, 0, 0.4,-0.01);
+            animation-delay: 1s;
+            animation-direction: alternate-reverse;
+            animation-play-state: running;
+            */
+
+            /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
+            animation: arunkaanimation 3s ease-in-out 1s 3 alternate backwards,
+                arun 4s ease-in 1s;
+        }
+
+        @keyframes arunkaanimation {
+
+
+            from {
+                background-color: darkblue;
+
+            }
+
+            to {
+                background-color: darkmagenta;
+                transform: translateX(1000px);
+
+            }
+        }
+
+        @keyframes arun {
+            0% {
+                transform: rotateX(100deg);
+            }
+
+            20% {
+                transform: rotateX(150deg);
+            }
+
+            40% {
+                transform: rotateX(200deg);
+            }
+
+            60% {
+                transform: rotateX(250deg);
+            }
+
+            100% {
+                transform: rotateX(300deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+
+        <div class="class">
+            we are going to raise the bar
+        </div>
+
+    </div>
+
+</body>
+
+</html>
